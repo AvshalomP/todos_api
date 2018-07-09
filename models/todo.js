@@ -19,6 +19,6 @@ let todoSchema = new mongoose.Schema({
 //compiling into a model
 let Todo = mongoose.model('Todo', todoSchema);
 
-//exporting the model
+//export Todo model
 module.exports = Todo;
 
