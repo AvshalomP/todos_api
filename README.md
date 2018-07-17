@@ -51,17 +51,17 @@ POST <prefix_Url>/api/todos
 
 #### SHOW - show specific todo
 ```sh
-GET <prefix_Url>/api/todos/:todoId
+GET <prefix_Url>/api/todos/<todoId>
 ```
 
 #### UPDATE - update specific todo
 ```sh
-PUT <prefix_Url>/api/todos/:todoId
+PUT <prefix_Url>/api/todos/<todoId>
 ```
 
 #### DESTROY - delete specific todo 
 ```sh
-DELETE <prefix_Url>/api/todos/:todoId
+DELETE <prefix_Url>/api/todos/<todoId>
 ```
 
 
